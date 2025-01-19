@@ -15,6 +15,7 @@ G4 P1000
 M300 S200 P500
 M190 R40 ;wait until the bed cools to 40C
 M300 S200 P3000
+M355 S0 P255
 
 M106 S0 ;Turn-off fan
 M104 S0 ;Turn-off hotend
